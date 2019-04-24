@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;    
+    background-image: linear-gradient(rgb(231, 231, 231), rgb(116, 116, 116));
+    padding: 40px;
+    font-size: 16px;
+}
+
+.main_container {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#drop_file_zone {
+    background-color: #eee;
+    /* height: 150px; */
+    padding: 8px;
+    font-size: 12px;
+}
+
+#drag_upload_file {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#drag_upload_file p {
+    text-align: center;
+}
+
+#drag_upload_file #selectfile {
+    display: none;
+}
+
+.column {
+    border: #999 3px dashed;
+    width: 300px;
+}
+
+.desc_zone {
+    background-color: rgb(228, 231, 13);
+    /* height: 150px; */
+    padding: 8px;
+    font-size: 12px;
+}
+
+code {
+    background: hsl(220, 80%, 90%);
+}
+
+pre {
+    white-space: pre-wrap;
+    background: hsl(30, 80%, 90%);
+}
